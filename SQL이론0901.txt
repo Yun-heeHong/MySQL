@@ -1,0 +1,29 @@
+JOIN
+- 조인(여러 테이블 조인)
+- 아우터 조인(right, left)
+- 셀프 조인(테이블안에서 조인)
+-- join
+select * from emp as e
+inner join dept as d
+on e.deptno=d.deptno
+-- outer join
+select * from emp as e right join dept as d
+on e.deptno=d.deptno
+where e.empno is null
+-- self join-- junior : 사원, senior : 사수
+select 
+     junior.empno as "부하번호",
+     junior.ename as "부하이름",
+     senior.empno as "사수번호",
+     senior.ename as "사수이름",
+from emp as junior
+inner join emp as senior
+on junior.mrg = senior.empno
+-- SQL 순서
+-- 1. from (join) 2. where 3. group by 4. having 5. select 6. order by
+-- delete from emp  -- update
+null   'null' 다름 is null ,is not null
+--pk는 중복불허용
+--fk는 중복 가능함
+insert into dept (deptno, dname, loc)
+value (60, 'DW아카데미', '대전 선화동')

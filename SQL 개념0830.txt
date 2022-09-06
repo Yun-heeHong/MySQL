@@ -1,0 +1,11 @@
+- SQL
+DDL : CREATE, ALTER, DROP (auto commit)
+DML : SELECT, UPDATE, DELETE, INSERT (not auto)
+* commit 해제
+DCL : GRANT, REVOKE (auto commit)
+SQL순서
+from -> where -> select
+group by, having, order by
+****SQL 실행 순서
+from -> where -> group by -> having
+-> select ->order by

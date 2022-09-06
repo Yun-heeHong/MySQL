@@ -1,0 +1,8 @@
+empno : 사원번호
+ename : 사원이름
+job : 사원직책
+mgr : 사수번호
+hiredate : 입사날짜
+sal : 급여
+comm : 보너스
+deptno : 부서번호

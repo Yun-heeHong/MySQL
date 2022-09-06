@@ -1,0 +1,15 @@
+depno : 부서번호
+dname : 부서이름
+loc : 부서위치
+join 일반쿼리
+- inner join (v)
+- self join
+- left join
+- right join
+-- 고급쿼리
+-- 서브쿼리(***),
+rollup,
+cube,
+exist,
+not exist ...
+- PL/SQL (끝판왕)

@@ -1,0 +1,17 @@
+*MySQL
+데이터베이스->테이블->데이터
+데이터베이스 종류
+1. 관계형 데이터베이스
+- Mysql,Oracle, MariaDB,..
+2. 비관계형 데이터베이스(NoSQL)-데이터 분석용
+3. 시계열 데이터베이스-데이터 분석용
+4. 빅데이터
+- SQL
+DML(not auto commit):
+	SELECT, UPDATE, DELETE, INSERT
+*디비버, 워크벤치 프로그램은 DML이 오토커밋으로 해제하고 
+ 작업해야 함.(**dbeaver auto commit 해제)
+DDL(auto commit):
+	CREATE, ALTER, DROP
+DCL(auto commit):
+	GRANT, REVOKE
